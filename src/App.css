@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: rgb(218, 217, 217);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  position: relative;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: translateZ(0);
+  perspective: 1000px;
+}
+
+.container:hover {
+  transform: scale(1.02) translateZ(20px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+h1,
+h2 {
+  color: #2A8DDA;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 15px 0 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #2A8DDA;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  text-align: left;
+  margin-top: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.emoji-animado {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+  display: block;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+#emoji,
+#resultado {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
