@@ -83,18 +83,3 @@ GitHub: icarofurlaneto
 
 
 ---
-
-### 🔍 Explicação das Seções
-
-- **Título e Descrição**: Fornecem uma visão geral do projeto.
-- **Sumário**: Facilita a navegação pelo README.
-- **Sobre**: Detalha o propósito e a importância da calculadora de IMC.
-- **Características**: Lista as principais funcionalidades da aplicação.
-- **Tecnologias**: Enumera as tecnologias usadas no desenvolvimento.
-- **Instalação**: Guia passo a passo para configurar o projeto localmente.
-- **Uso**: Instruções de como utilizar a aplicação.
-- **Contribuição**: Regras para quem deseja contribuir com o projeto.
-- **Licença**: Informações sobre a licença do projeto.
-- **Contato**: Informações de contato para suporte ou dúvidas.
-
-Personalize cada seção conforme necessário para refletir com precisão seu projeto e suas preferências.
