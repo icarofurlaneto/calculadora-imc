@@ -52,7 +52,7 @@ Instale as dependências
 
 Inicie a aplicação
 
-A aplicação será executada em http://localhost:3000.
+A aplicação será executada em http://172.25.188.223:3000.
 
 🖥️ Uso
 Abra a aplicação no seu navegador.
